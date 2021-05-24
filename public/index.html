@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>my-webapp1</title>
+
+		<!-- Copy and paste these scripts into the bottom of your <body> tag, but before you use any Firebase services: -->
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+		<!-- DONE..(added firebase-auth and firebase-app).. TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			var firebaseConfig = {
+				apiKey: 'AIzaSyAWRvQNFngLbgQldAD6t7lG5GYpF0DcWoE',
+				authDomain: 'cool-proj1.firebaseapp.com',
+				projectId: 'cool-proj1',
+				storageBucket: 'cool-proj1.appspot.com',
+				messagingSenderId: '613126891999',
+				appId: '1:613126891999:web:a4dcf422210cfe43077c6a',
+				measurementId: 'G-1SQN41XXJ5',
+			}
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig)
+			firebase.analytics()
+		</script>
+
+		<script src="app.js" defer></script>
+		<!-- Specifying defer so that this script loads after the body elements are loaded. -->
+	</head>
+	<body>
+		Welcome to my-webapp1🐥︎.
+	</body>
+</html>
